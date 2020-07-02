@@ -141,6 +141,7 @@ class Weather extends React.Component {
           weather: weatherReport
         })
       })
+      .catch(error => console.log(error))
 
   }
 
